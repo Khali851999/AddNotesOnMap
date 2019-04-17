@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPost"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Post"
+            android:textColor="#ffff"
+            android:textSize="23dp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/ic_plusone_medium_off_client"
+
+        android:id="@+id/addphotopost"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:padding="3dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="Post Title"
+        android:textColorHint="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:maxLines="1"
+        android:id="@+id/postTitle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:padding="3dp"
+        android:hint="Post Description"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:maxLines="10"
+        android:id="@+id/post_description"/>
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:text="POST"
+        android:textSize="20dp"
+        />
+</LinearLayout>

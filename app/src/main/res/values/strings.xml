@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">easypg</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapsapikey">AIzaSyCzINupEp0xcGvbExAcoTjCFb-XwoqUxwM</string>
+</resources>

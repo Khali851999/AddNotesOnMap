@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "462576428337",
+    "firebase_url": "https://notesonlocation.firebaseio.com",
+    "project_id": "notesonlocation",
+    "storage_bucket": "notesonlocation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462576428337:android:8bb1bcb01e5bf41c",
+        "android_client_info": {
+          "package_name": "com.example.easypg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462576428337-35ejr5ttal6bkajbr3gnvqmg3aaphbi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easypg",
+            "certificate_hash": "36db03eb6a522da2a7b8057b7bc1503338d3c9d4"
+          }
+        },
+        {
+          "client_id": "462576428337-tvn4p1h39nnn563qgqrr3591kagnj6uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz2mqiXYoBuKx4ooyzM3SgPoQXzjBIc4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462576428337-tvn4p1h39nnn563qgqrr3591kagnj6uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
